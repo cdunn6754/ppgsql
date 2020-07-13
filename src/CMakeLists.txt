@@ -1,1 +1,3 @@
-project(tic_tac_toe_libs LANGUAGES CXX)
+project(ppgsql LANGUAGES CXX)
+
+add_subdirectory(terminal)
