@@ -20,7 +20,7 @@ void read_input(std::unique_ptr<InputBuffer>& ib) {
 }
 
 void process_input(std::string& buffer) {
-  std::cout << "Got it: " << buffer << std::endl;  
+  std::cout << "Got it: " << buffer << std::endl;
 }
 
 int main(int argc, char* argv[]) {
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
   while (true) {
     print_prompt();
     read_input(ib);
-    
+
     if (ib->buffer.compare("\\c") == 0 || ib->buffer.compare("q") == 0) {
       std::exit(EXIT_SUCCESS);
     }
