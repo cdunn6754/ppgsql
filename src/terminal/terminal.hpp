@@ -1,5 +1,5 @@
-#ifndef PPSQL
-#define PPSQL
+#ifndef TERMINAL_H
+#define TERMINAL_H
 
 #include <string>
 #include <iostream>
